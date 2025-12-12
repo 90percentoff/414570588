@@ -227,6 +227,32 @@ body {
     margin: 0 auto;
 }
 
+/* Tags within skills */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: var(--bg-light);
+    color: var(--text-dark);
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    box-shadow: var(--shadow);
+    transition: all 0.2s ease;
+}
+
+.tag:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg);
+}
+
 .skill-item {
     margin-bottom: 2rem;
 }
@@ -514,6 +540,8 @@ body {
         padding-top: 120px;
     }
 }
-/ *   s m a l l   u i   t w e a k   * /  
- / *   s m a l l   u i   t w e a k   * /  
+/ *   s m a l l   u i   t w e a k   * / 
+ 
+ / *   s m a l l   u i   t w e a k   * / 
+ 
  
